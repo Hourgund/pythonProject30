@@ -13,6 +13,9 @@ def main():
         zebra = random.choice(zebras)
         print(zebra.get_stripe())
 
+    for zebra in zebras:
+        print(zebra)
+
 
 if __name__ == "__main__":
     main()

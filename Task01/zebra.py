@@ -16,6 +16,6 @@ class Zebra(Animal):
         return msg
 
     def __str__(self):
-        return (super().__str__() \
-               + f" State of Zebra - " \
-               + "black line" if self.__state else "white line")
+        return (super().__str__()
+                + f" State of Zebra - "
+                + ("black line." if self.__state else "white line."))
